@@ -2,9 +2,9 @@
 Implements EDF Algorithm for FreeRTOS Scheduler by setting the priority of the nearest deadline task to max priority
 
 How to compile:
-You need FreeRTOS to build this since we're using FreeRTOS for job structs, schedulor, semaphores and timers
- 
-Once downloaded, go to {FreeRTOS}/FreeRTOS/Demo/Posix_GCC and change main.c to run main_assignment.c instead of main_blinky.c (Add extern void main_assignment)
+1) You need FreeRTOS to build this since we're using FreeRTOS for job structs, schedulor, semaphores and timers
+2) You need to have Posix_GCC architecture. If not, look for your specifications in the include folder
+3) Once downloaded, go to {FreeRTOS}/FreeRTOS/Demo/Posix_GCC and change main.c to run main_assignment.c instead of main_blinky.c (Add extern void main_assignment)
 
 Run make
 
