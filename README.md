@@ -3,7 +3,9 @@ Implements EDF Algorithm for FreeRTOS Scheduler by setting the priority of the n
 
 How to compile:
 You need FreeRTOS to build this since we're using FreeRTOS for job structs, schedulor, semaphores and timers
+ 
 Once downloaded, go to {FreeRTOS}/FreeRTOS/Demo/Posix_GCC and change main.c to run main_assignment.c instead of main_blinky.c (Add extern void main_assignment)
+
 Run make
 
 Structure of the program:
