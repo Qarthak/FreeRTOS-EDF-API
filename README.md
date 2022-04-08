@@ -1,5 +1,5 @@
 # FreeRTOS-EDF-API
-Implements EDF Algorithm for FreeRTOS Scheduler by setting the priority of the nearest deadline task to max priority
+Implements EDF Algorithm for FreeRTOS Scheduler by setting the priority of the nearest deadline task to max priority. Internally uses a heap and self adjusting vector of jobs for dynamic handling of new jobs. The initial size and resizing paramaters for the vector can be changed in vectorTask.h
 
 How to compile:
 1) You need FreeRTOS to build this since we're using FreeRTOS for job structs, schedulor, semaphores and timers
