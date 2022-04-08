@@ -2,16 +2,16 @@
 Implements EDF Algorithm for FreeRTOS Scheduler by setting the priority of the nearest deadline task to max priority. Internally uses a heap and self adjusting vector of jobs for dynamic handling of new jobs. The initial size and resizing paramaters for the vector can be changed in vectorTask.h
 
 ## Requirements
-FreeRTOS 202112.00
+### FreeRTOS 202112.00
 Version as tested: FreeRTOS 202112.00
 
-gprof
+### gprof
 Version as tested: GNU gprof (GNU Binutils) 2.36
 
-make
+### make
 Version as tested: GNU Make 3.82
 
-gcc
+### gcc
 Version as tested: gcc (GCC) 11.0.0
 
 
