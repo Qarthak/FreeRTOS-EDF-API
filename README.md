@@ -16,8 +16,9 @@ Version as tested: gcc (GCC) 11.0.0
 
 
 ## How to compile:
-1) Go to {FreeRTOS}/FreeRTOS/Demo/Posix_GCC and change main.c to run main_assignment.c instead of main_blinky.c (Add extern void main_assignment)
-2) Run makefile
+1) Go to {FreeRTOS}/FreeRTOS/Demo/Posix_GCC 
+2) Edit main.c to call main_assignment.c instead of main_blinky.c (Add extern void main_assignment)
+3) Run makefile
 
 ## Structure of the program:
 1) API.c and API.h are API for three tasks which we'll use to test the algorithm
